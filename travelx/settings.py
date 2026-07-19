@@ -23,11 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rifja6z-my$0d9p(3d15xcp(w5al35v)fz(=@aqqgz(#g6*+39'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
 ALLOWED_HOSTS = [
-    "travelx-website-backend-3.onrender.com",
-    "localhost",
-    "127.0.0.1",
+    "travelx-website-backend-3.onrender.com"
+]
+CORS_ALLOWED_ORIGINS = [
+    "https://travelx-1-s9ew.onrender.com",
 ]
 
 
